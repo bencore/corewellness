@@ -1,0 +1,376 @@
+---
+---
+
+/* Global */
+
+
+/* Navbar */
+.navbar {
+  height: 60px;
+}
+
+#navbar {
+  padding-left: 40px;
+}
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.nav-link {
+  color: #3d3c3a !important;
+}
+
+.nav-link:hover {
+  color: #67989b !important;
+}
+.navbar-container {
+  height: 100%;
+}
+.navbar-header {
+  height: 100%;
+}
+.navbar-brand {
+  height: 100%;
+}
+
+.navbar-collapse {
+   background: white;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+/* Content */
+.content {
+  padding-top: 60px;
+}
+
+/* Hero section */
+#hero {
+  height: 600px;
+  max-width: 100%;
+  position: relative;
+  background-image: linear-gradient(to right, rgba(61,60,58,0),rgba(61,60,58,0)),url(../img/hero_justin_lightened.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 767.98px) {
+  #hero {
+    background-size: 950px;
+    background-position: 45% 35%;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #hero {
+    background-position: center 58%;
+  }
+}
+
+
+.hero-text {
+  padding-top: 120px;
+  width: 40%;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .subheader {
+    padding-bottom: 20px;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-text {
+    padding-top: 110px;
+    width: 65%;
+
+    h1 {
+      font-size: 2.6rem;
+    }
+
+    .subheader {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/* Validation section */
+
+#validation {
+  height: 110px;
+  margin: 15px 0px;
+  background-color: white;
+  text-align: center;
+  color: #3d3c3a;
+
+  .validation_intro {
+    height: 24px;
+    align-items: center;
+  }
+
+  .validation_items {
+    height: 86px;
+    padding: 0px 8%;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* Overview section */
+
+#overview {
+  padding-bottom: 40px;
+  text-align: center;
+
+  .container {
+    height: 100%;
+  }
+
+  .overview_items {
+    height: 100%;
+    padding: 20px 0px;
+    align-items: center;
+
+    img {
+      max-width: 70%;
+      padding-bottom: 10px;
+    }
+
+    h3 {
+      padding-bottom: 10px;
+    }
+
+    p {
+      width: 80%;
+      margin: auto;
+    }
+
+  }
+}
+
+@media (max-width: 767.98px) {
+  .overview_items {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+
+/* Info section */
+
+.info-left {
+
+}
+
+.info img {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .info img {
+    height: 75%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.info-text {
+  padding: 175px 0px;
+  margin-left: 40px;
+  width: 70%;
+
+  h1 {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .info-text {
+    margin-left: 38%;
+    width: 62%;
+  }
+}
+
+.info-text-left {
+  margin: auto;
+  width: 70%;
+  padding: 165px 0px;
+
+  h1 {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .info-text-left {
+    padding: 60px 0px;
+  }
+}
+
+#pulse-info {
+  background: linear-gradient(to right, rgba(61,60,58,0.2),rgba(61,60,58,0.2)),url(../img/AustinBed.png);
+  background-position: 100% 83%;
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767.98px) {
+  #pulse-info {
+    background-position: 58% 83%;
+    background-size: cover;
+  }
+}
+
+#meditations-info {
+  background: linear-gradient(to right, rgba(61,60,58,0.0),rgba(61,60,58,0.3)),url(../img/CoreBed.JPG);
+  background-position: center 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767.98px) {
+  #meditations-info {
+    background-position: 34% 70%;
+  }
+}
+
+/* One Percent */
+
+#onepercent {
+  padding-top: 40px;
+
+  h1 {
+    color: #67989b;
+  }
+}
+
+/* Testimonials */
+
+#testimonials {
+  height: 200px;
+
+  .carousel {
+    padding-top: 20px;
+  }
+
+  .carousel-inner {
+    width: 60%;
+    margin: auto;
+  }
+
+}
+
+/* Guarantees */
+
+#guarantees {
+  padding: 40px 0px 30px;
+  text-align: center;
+
+  .container {
+    height: 100%;
+  }
+
+  h1 {
+    color: #67989b;
+    padding-bottom: 40px;
+  }
+
+  .guarantee_items {
+    height: 100%;
+
+    align-items: center;
+
+    img {
+      max-width: 28%;
+      padding-bottom: 30px;
+    }
+
+    h4 {
+      color: #3d3c3a;
+      padding-bottom: 10px;
+    }
+
+    p {
+      width: 80%;
+      margin: auto;
+    }
+
+  }
+}
+
+
+/* Footer */
+
+#footer {
+
+  background: #67989b;
+  color: white;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: #C5DFE1;
+  }
+
+  .container {
+    padding-top: 70px;
+  }
+
+  .email {
+    width: 60%;
+  }
+
+  #social {
+    padding-top: 20px;
+  }
+
+  #credits {
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+
+}
+
+/* How it work */
+
+#meetcore {
+  img {
+    height: 50%;
+    width: 50%;
+  }
+
+  text-align: center;
+}
+
+
+/* Team page */
+
+#story {
+  padding-top: 60px;
+}
+
+#signature {
+  width: 180px;
+}
+
+#teampic img {
+  width: 500px;
+}
+
+@import 'bootstrap/bootstrap';
