@@ -82,7 +82,6 @@
   }
 
   .subheader {
-    padding-bottom: 20px;
     font-size: 1.4rem;
   }
 }
@@ -98,6 +97,24 @@
 
     .subheader {
       font-size: 1.2rem;
+    }
+
+    .btn {
+      margin-top: 6px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero-text {
+    width: 60%;
+
+    h1 {
+
+    }
+
+    .subheader {
+
     }
   }
 }
@@ -180,7 +197,7 @@
 
 @media (min-width: 768px) {
   .info img {
-    height: 75%;
+    /* max-height: 75%; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -242,6 +259,10 @@
   background-position: center 70%;
   background-size: cover;
   background-repeat: no-repeat;
+
+  .info-text {
+    padding: 150px 0px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -253,20 +274,37 @@
 /* One Percent */
 
 #onepercent {
-  padding-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .info-text-left {
+    padding: 140px 0px;
+  }
 
   h1 {
     color: #67989b;
   }
 }
 
+@media (max-width: 767.98px) {
+  #onepercent {
+    .info-text-left {
+        padding: 60px 0px;
+    }
+  }
+}
+
 /* Testimonials */
 
 #testimonials {
-  height: 200px;
+
+  h5 {
+    padding-top: 40px;
+  }
 
   .carousel {
     padding-top: 20px;
+    padding-bottom: 40px;
   }
 
   .carousel-inner {
@@ -274,6 +312,32 @@
     margin: auto;
   }
 
+  .carousel-item {
+    height: 180px;
+  }
+
+  .carousel-text {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  #testimonials {
+    .carousel-inner {
+        width: 65%;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  #testimonials {
+    .carousel-item {
+        height: 200px;
+    }
+  }
 }
 
 /* Guarantees */
@@ -371,6 +435,22 @@
 
 #teampic img {
   width: 500px;
+}
+
+#team {
+  padding-top: 40px;
+}
+
+#investors {
+  padding-top: 40px;
+
+  img {
+    width: 100%;
+  }
+}
+
+#careers {
+  padding: 40px 0px;;
 }
 
 @import 'bootstrap/bootstrap';
