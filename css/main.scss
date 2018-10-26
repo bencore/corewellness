@@ -222,6 +222,17 @@
   max-width: 90%;
   max-height: 90%;
 }
+
+@media (max-width: 767.98px) {
+  .info {
+    text-align: center;
+  }
+
+  .mainimg {
+    padding-top: 30px;
+  }
+
+}
 /*
 @media (min-width: 768px) {
   .info img {
@@ -319,8 +330,8 @@
 /* One Percent */
 
 #onepercent {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
   .info-text-left {
     padding: 140px 0px;
@@ -336,7 +347,7 @@
     padding: 0px;
 
     .info-text-left {
-        padding: 60px 0px;
+        padding: 0px 0px 40px 0px;
     }
   }
 }
