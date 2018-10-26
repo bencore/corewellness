@@ -222,9 +222,20 @@
   max-width: 90%;
   max-height: 90%;
 }
-
+/*
 @media (min-width: 768px) {
   .info img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+*/
+@media (min-width: 768px) {
+  .mainimg {
     /* max-height: 75%; */
     position: absolute;
     top: 0;
@@ -448,6 +459,12 @@
 }
 
 /* How it work */
+
+.tealheader {
+  h1 {
+    color: #67989b;
+  }
+}
 
 #meetcore {
   img {
