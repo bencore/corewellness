@@ -275,7 +275,8 @@
 
 @media (max-width: 767.98px) {
   .info-text {
-    margin-left: 38%;
+    /* margin-left: 38%; */
+    margin: auto;
     width: 62%;
   }
 }
@@ -305,7 +306,7 @@
 
 @media (max-width: 767.98px) {
   #pulse-info {
-    background-position: 58% 83%;
+    background-position: 62% 83%;
     background-size: cover;
   }
 }
