@@ -474,7 +474,7 @@
 
 }
 
-/* How it work */
+/* How it works */
 
 .tealheader {
   h1 {
@@ -484,11 +484,33 @@
 
 #meetcore {
   img {
-    height: 50%;
-    width: 50%;
+    height: 48%;
+    width: 48%;
   }
 
   text-align: center;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .subheader {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #meetcore {
+
+    h1 {
+      font-size: 2.6rem;
+    }
+
+    .subheader {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 
@@ -496,6 +518,12 @@
 
 #story {
   padding-top: 60px;
+}
+
+@media (max-width: 767.98px) {
+  #story_text {
+    padding-top: 30px;
+  }
 }
 
 #signature {
@@ -523,11 +551,37 @@
   }
 }
 
+@media (max-width: 767.98px) {
+  #team img {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+  #team img {
+    width: 70%;
+  }
+}
+
+
 #investors {
   padding-top: 40px;
 
   img {
     width: 80%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #investors img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #investors img {
+    width: 65%;
   }
 }
 
