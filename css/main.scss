@@ -96,6 +96,14 @@
   }
 }
 
+@media (min-width: 768px) {
+  #hero {
+    .email {
+      width: 64%;
+    }
+  }
+}
+
 
 @media (min-width: 1200px) {
   #hero {
@@ -520,12 +528,18 @@
 }
 
 #hiw_waitlist {
-  padding: 40px 0px;
+  padding: 40px 0;
+  text-align: center;
+
+  img {
+    max-width: 350px;
+    padding: 30px 0;
+  }
+
 }
 
 #hiw_waitlist_text {
   width: 59%;
-  text-align: center;
   margin: auto;
 }
 
