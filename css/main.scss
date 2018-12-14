@@ -74,6 +74,31 @@
   border: none !important;
 }
 
+.batch_progress {
+  font-size: .8rem;
+  letter-spacing: .05rem;
+  color: #817E79;
+  text-transform: uppercase;
+  text-align: center;
+  padding-right: 15px;
+}
+
+@media (max-width: 767.98px) {
+  .batch_progress {
+    display: none;
+  }
+}
+
+.batch_text {
+  padding-bottom: 2px;
+}
+
+.progress {
+  width: 200px;
+  height: 15px !important;
+  border: 0px solid #817E79;
+}
+
 /* Content */
 .content {
   padding-top: 56px;
